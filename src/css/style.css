@@ -117,7 +117,7 @@ header{
 .detalhes-tempo{
     display: flex;
     margin-top: 30px;
-    width: 90%;
+    width: 65%;
     margin: 0px auto;
     border: 2px solid #17E5E5;
     flex-direction: row;
