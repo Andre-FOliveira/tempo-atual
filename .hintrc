@@ -3,10 +3,27 @@
     "development"
   ],
   "hints": {
+    "disown-opener": "off",
     "axe/name-role-value": [
       "default",
       {
-        "button-name": "off"
+        "button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backface-visibility",
+          "scroll-behavior"
+        ]
       }
     ]
   }

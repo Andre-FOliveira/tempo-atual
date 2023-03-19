@@ -1,18 +1,18 @@
 .dark {
-    background-color: #191919; 
-  }
-  
+    background-color: #191919;
+}
+
 .dark .tema button {
     background: #FFFF;
-  }
+}
 
 .dark .input-city {
     caret-color: #FFAA00;
 }
 
-.dark .pesquisa button{
+.dark .pesquisa button {
     background-color: #FFAA00;
-    color: #f3f4fb; 
+    color: #f3f4fb;
 }
 
 .dark .cidade {
@@ -21,20 +21,29 @@
     font-size: 30px;
 }
 
-.dark #data, .dark .temp-agora, .dark .detalhe-paragrafo{
+.dark #data,
+.dark .temp-agora,
+.dark .detalhe-paragrafo {
     color: #FFFF;
 }
-  
-.dark .descricao, .dark .temp{
-    color: #FFAA00;
-}  
 
-.dark .detalhes{
+.dark .descricao,
+.dark .temp {
+    color: #FFAA00;
+}
+
+.dark .detalhes {
     border: 1px solid #FFAA00;
 }
 
 .dark .sensacao-termica,
 .dark .umidade,
-.dark .vento{
+.dark .vento {
     color: #FFAA00;
+}
+
+.dark .menu-lateral img {
+    filter: invert(1);
+    /*Mudar a cor de uma imagem*/
+
 }
