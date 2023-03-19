@@ -20,16 +20,15 @@
         width: 90%;  
     }
 
-.detalhe-paragrafo{ 
-
-     font-size: 14px; 
- } 
-  
- .sensacao-termica, 
- .umidade, 
- .vento{ 
-     font-size: 10px; 
- }
+    .detalhe-paragrafo{
+        font-size: 12px;
+    }
+    
+    .sensacao-termica,
+    .umidade,
+    .vento{
+        font-size: 8px;
+    }
      
 
 }
