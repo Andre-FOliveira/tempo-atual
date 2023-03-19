@@ -1,23 +1,40 @@
 .dark {
-    background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+    background-color: #191919; 
   }
   
-  .dark .container {
-    background: #333439;
-    color: #f6f6f6;
+.dark .tema button {
+    background: #FFFF;
   }
-  
-  .dark .projetos {
-    color: #1c1c1c;
-  }
-  
-  .dark .tema button {
-    background: #1c1c1c;
-    color: #ffffff;
-    border: 2px solid #f7f7f7;
-  }
-  
- .dark .detalhe-paragrafo{
+
+.dark .input-city {
+    caret-color: #FFAA00;
+}
+
+.dark .pesquisa button{
+    background-color: #FFAA00;
+    color: #f3f4fb; 
+}
+
+.dark .cidade {
     color: #FFFF;
-    
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.dark #data, .dark .temp-agora, .dark .detalhe-paragrafo{
+    color: #FFFF;
+}
+  
+.dark .descricao, .dark .temp{
+    color: #FFAA00;
+}  
+
+.dark .detalhes{
+    border: 1px solid #FFAA00;
+}
+
+.dark .sensacao-termica,
+.dark .umidade,
+.dark .vento{
+    color: #FFAA00;
 }

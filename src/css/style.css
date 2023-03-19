@@ -161,16 +161,16 @@ header{
 
 
 .detalhe-paragrafo{
-    color: #00AAFF;
     font-size: 22px;
 }
 
 .sensacao-termica,
 .umidade,
 .vento{
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 20px;  
     text-align: center;
+    color: #00AAFF;
 }
 .info{
     max-width: 600px;
@@ -184,16 +184,4 @@ header{
     align-items: center;
     flex-direction: column;
     padding-bottom: 15px;
-}
-
-.sol{
-    margin-top: 10px;
-    width: 30px; 
-}
-
-.sunrise-time,
-.sunset-time{
-    font-weight: 500px;
-    margin-top: 10px;  
-    text-align: center;
 }
