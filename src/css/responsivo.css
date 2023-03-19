@@ -20,18 +20,18 @@
         width: 90%;  
     }
 
-
-
 .detalhe-paragrafo{ 
-    
-     font-size: 17px; 
+
+     font-size: 14px; 
  } 
   
  .sensacao-termica, 
  .umidade, 
  .vento{ 
-    font-sinze: 13px;
+     font-size: 10px; 
  }
+     
+
 }
 
 @media (max-width: 425px) {
