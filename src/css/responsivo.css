@@ -17,10 +17,21 @@
 @media (max-width: 499px){
     .detalhes-tempo{
        
-        width: 90%;
-       
+        width: 90%;  
     }
 
+
+
+.detalhe-paragrafo{ 
+    
+     font-size: 17px; 
+ } 
+  
+ .sensacao-termica, 
+ .umidade, 
+ .vento{ 
+    font-sinze: 13px;
+ }
 }
 
 @media (max-width: 425px) {
