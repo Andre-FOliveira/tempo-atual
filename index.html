@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
 
+    <script src="./src/js/script.js"></script>
+
     <title>Temperatura</title>
 
 </head>
@@ -18,28 +20,31 @@
     <header>
         <div class="pesquisa">
 
-            <input class="pesquisa-cidade" type="text" placeholder="Digite a Cidade">
+            <input class="input-city" placeholder="Digite a Cidade">
 
-            <button class="botao-cidade">
+            <button onclick="pesquisa()">
                 <img src="./src/img/find.svg" alt="lupa de pesquisa">
             </button>
         </div>
 
-        <div class="nome-cidade">Guarulhos - Brasil</div>
+        <div class="dados">
+            <h2 class="cidade">Cidade</h2> 
+            <img class="flat" src="" alt="">
+        </div>
 
-        <div class="data-hora">quinta-feira, 16 de março</div>
+        <div id="data">...</div> 
 
     </header>
 
     <section class="info-temperatura">
        
-        <img class="icone-temp" src="./src/loading.svg" alt="imagem loading">
+        <img class="acao" src="./src/img/loading.svg" alt="imagem loading">
 
-        <div class="nuvens"> Nuvens Dispersas</div>
+        <div class="descricao"> Nuvens </div>
 
         <div class="temp-agora">Temperatura Atual</div>
 
-        <div class="temperatura">25°C</div>
+        <div class="temp">...</div>
     
     </section>
 
@@ -48,17 +53,17 @@
         <div class="detalhes-tempo">
             <div class="detalhe-vento">
                 <p class="detalhe-paragrafo">Vento</p>
-                <p class="detalhe-valor">20km</p>
+                <p class="vento">...</p>
             </div>
             
             <div class="detalhe-sensacao">
                 <p class="detalhe-paragrafo">Sensação</p>
-                <p class="detalhe-valor">25°C</p>
+                <p class="sensacao-termica">...</p>
             </div>
 
             <div class="detalhe-umidade">
                 <p class="detalhe-paragrafo">Umidade</p>
-                <p class="detalhe-valor">69%</p>
+                <p class="umidade" >...</p>
             </div>
 
         </div>
@@ -67,22 +72,20 @@
 
 
         
-        <div class="info" >
+        <!-- <div class="info" >
 
             <div class="sol-info">
                 <img class="sol" src="./src/img/ndsol.png" alt="Nascer do Sol">
-                <p>06:07</p>
+                <p class="sunrise">...</p>
             </div>
     
             <div class="sol-info">
                 <img class="sol" src="./src/img/pdsol.png" alt="Por do Sol">
-                <p>18:47</p>
+                <p class="sunset">...</p>
             </div>
-        </div>
+        </div> -->
 
     </footer>
-
-   
 
 </body>
 
