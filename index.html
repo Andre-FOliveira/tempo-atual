@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/dark.css">
     <link rel="icon" href="./src/img/nuvens.png">
     <script src="./src/js/script.js"></script>
     
@@ -17,10 +18,17 @@
 </head>
 
 <body>
+
+    <div class="tema">
+        <button onclick="mudaTema()">
+            <img src="./src/img/tema.png" alt="">
+        </button>
+      </div>
+
     <header>
         <div class="pesquisa">
 
-            <input class="input-city" placeholder="Digite a Cidade">
+            <input type="text" class="input-city" placeholder="Digite a Cidade">
 
             <button onclick="pesquisa()">
                 <img src="./src/img/find.svg" alt="lupa de pesquisa">

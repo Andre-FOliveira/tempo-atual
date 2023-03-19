@@ -11,9 +11,6 @@ const hora = String(data.getHours()).padStart(2, '0')
 const min = String(data.getMinutes()).padStart(2, '0')
 const seg = String(data.getSeconds()).padStart(2, '0')
 
-// const sunriseTime = document.querySelector(".sunrise")
-// const sunsetTime = document.querySelector(".sunset")
-
 
 const dataAtual = `${dia}/${mes}/${ano} - ${hora}:${min}:${seg}`
 
@@ -60,33 +57,8 @@ function pesquisa() {
     buscarCidade(cidade)
 }
 
-// function displayWeather(data) {
-//     let {
-//       dt,
-//       name,
-//       sys: { sunrise, sunset },
-//     } = data;
-  
-//     currentDate.textContent = formatDate(dt);
-//     cityName.textContent = name;
-//     sunriseTime.textContent = formatTime(sunrise);
-//     sunsetTime.textContent = formatTime(sunset);
-//   }
-  
-//   function formatDate(epochTime) {
-//     let date = new Date(epochTime * 1000);
-//     let formattedDate = date.toLocaleDateString("pt-BR", {
-//       month: "long",
-//       day: "numeric",
-//       weekday: "long",
-//     });
-//     return formattedDate;
-//   }
-  
-//   function formatTime(epochTime) {
-//     let date = new Date(epochTime * 1000);
-//     let hours = date.getHours();
-//     let minutes = date.getMinutes();
-//     return `${hours}:${minutes}`;
-//   }
-  
+
+
+function mudaTema() {
+    document.body.classList.toggle("dark");
+  }
