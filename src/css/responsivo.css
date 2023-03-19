@@ -21,13 +21,13 @@
     }
 
     .detalhe-paragrafo{
-        font-size: 12px;
+        font-size: 13px;
     }
     
     .sensacao-termica,
     .umidade,
     .vento{
-        font-size: 8px;
+        font-size: 13px;
     }
      
 
