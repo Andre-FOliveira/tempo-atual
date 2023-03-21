@@ -68,7 +68,7 @@ window.addEventListener('load', () => {
     }
 
     function showError(error) {
-        alert(`erro: ${error.message}`);
+        alert(`erro: Ative sua localização ${error.message}`);
     }
 })
 
